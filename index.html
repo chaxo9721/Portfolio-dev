@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de développeur web">
+  <title>TON NOM — Développeur Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<header class="navbar">
+  <a href="#accueil" class="brand">
+    <img src="mayana-logo.png" alt="Logo Mayana">
+    <span>TON<span class="cyan">.DEV</span></span>
+  </a>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="nav-btn" href="CV.pdf" download>CV ↗</a>
+</header>
+
+<main>
+  <section id="accueil" class="hero">
+    <div class="hero-copy">
+      <div class="status"><span></span> DISPONIBLE POUR DE NOUVEAUX PROJETS</div>
+      <p class="eyebrow">// HELLO WORLD</p>
+      <h1>Je transforme<br>des idées en<br><span>expériences web.</span></h1>
+      <p class="intro">
+        Je suis <strong>TON NOM</strong>, développeur web spécialisé dans la
+        création de sites modernes, rapides et responsives.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#projets">Explorer mes projets <b>→</b></a>
+        <a class="btn ghost" href="CV.pdf" download>Télécharger mon CV</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/" target="_blank">GitHub ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram ↗</a>
+      </div>
+    </div>
+
+    <div class="terminal-wrap">
+      <div class="orb"></div>
+      <div class="terminal">
+        <div class="terminal-top">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <span>developer.js</span>
+        </div>
+        <div class="terminal-body">
+<pre><code><span class="pink">const</span> developer = {
+  name: <span class="green">"TON NOM"</span>,
+  role: <span class="green">"Web Developer"</span>,
+
+  skills: [
+    <span class="blue">"HTML"</span>,
+    <span class="blue">"CSS"</span>,
+    <span class="blue">"JavaScript"</span>,
+    <span class="blue">"PHP / Laravel"</span>
+  ],
+
+  available: <span class="orange">true</span>
+};</code></pre>
+          <div class="terminal-line"><span>➜</span> <b>build</b> portfolio --production</div>
+          <div class="success">✓ Build completed successfully</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="section">
+    <div class="section-head">
+      <div><p class="eyebrow">01 / À PROPOS</p><h2>Qui suis-je ?</h2></div>
+      <p class="section-number">01</p>
+    </div>
+
+    <div class="about">
+      <div class="profile-card">
+        <!-- Pour mettre ta photo : remplace le div ci-dessous par
+        <img src="photo.jpg" alt="Photo de TON NOM"> -->
+        <div class="profile-placeholder">
+          <img src="mayana-logo.png" alt="Logo">
+          <span>TA PHOTO</span>
+          <small>Remplace ce bloc par ta photo</small>
+        </div>
+        <div class="profile-tag">DEVELOPER / DESIGNER</div>
+      </div>
+
+      <div class="about-content">
+        <h3>Je construis des projets numériques avec une approche simple : <em>design, code et performance.</em></h3>
+        <p>
+          Je m'appelle <strong>TON NOM</strong>. Je développe des interfaces
+          web modernes et des applications adaptées aux besoins de chaque projet.
+        </p>
+        <p>
+          Mon objectif est de créer des expériences propres, accessibles,
+          performantes et agréables à utiliser sur ordinateur comme sur mobile.
+        </p>
+
+        <div class="facts">
+          <div><span>Localisation</span><b>VOTRE VILLE</b></div>
+          <div><span>Email</span><b>votre@email.com</b></div>
+          <div><span>Expérience</span><b>À COMPLÉTER</b></div>
+          <div><span>Statut</span><b class="available">● Disponible</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="section skills-section">
+    <div class="section-head">
+      <div><p class="eyebrow">02 / COMPÉTENCES</p><h2>Mon arsenal technique</h2></div>
+      <p class="section-number">02</p>
+    </div>
+
+    <div class="skills">
+      <div class="skill">
+        <div class="skill-title"><b>HTML / CSS</b><span>95%</span></div>
+        <div class="bar"><i style="width:95%"></i></div>
+        <small>Interfaces, responsive design, animations</small>
+      </div>
+      <div class="skill">
+        <div class="skill-title"><b>JavaScript</b><span>85%</span></div>
+        <div class="bar"><i style="width:85%"></i></div>
+        <small>Interactions, DOM, API, applications web</small>
+      </div>
+      <div class="skill">
+        <div class="skill-title"><b>PHP / Laravel</b><span>80%</span></div>
+        <div class="bar"><i style="width:80%"></i></div>
+        <small>Back-end, authentification, dashboards</small>
+      </div>
+      <div class="skill">
+        <div class="skill-title"><b>SQL / MariaDB</b><span>78%</span></div>
+        <div class="bar"><i style="width:78%"></i></div>
+        <small>Base de données, requêtes, optimisation</small>
+      </div>
+      <div class="skill">
+        <div class="skill-title"><b>Git / GitHub</b><span>75%</span></div>
+        <div class="bar"><i style="width:75%"></i></div>
+        <small>Versioning, branches, collaboration</small>
+      </div>
+      <div class="skill">
+        <div class="skill-title"><b>UI / UX</b><span>85%</span></div>
+        <div class="bar"><i style="width:85%"></i></div>
+        <small>Design systems, interfaces, expérience utilisateur</small>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="section">
+    <div class="section-head">
+      <div><p class="eyebrow">03 / PROJETS</p><h2>Mes réalisations</h2></div>
+      <p class="section-number">03</p>
+    </div>
+
+    <div class="projects">
+      <article class="project">
+        <div class="project-visual visual-one">
+          <div class="mock-browser">
+            <div class="mini-nav"></div>
+            <div class="mini-hero"></div>
+            <div class="mini-cards"><i></i><i></i><i></i></div>
+          </div>
+          <span>PROJECT_01</span>
+        </div>
+        <div class="project-info">
+          <small>01 — SITE WEB</small>
+          <h3>Nom de ton projet</h3>
+          <p>Présente ici ton projet, son objectif et les fonctionnalités principales.</p>
+          <div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div>
+          <a href="#" target="_blank">Voir le projet ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-visual visual-two">
+          <div class="dashboard">
+            <div></div><div></div><div></div><div></div>
+          </div>
+          <span>PROJECT_02</span>
+        </div>
+        <div class="project-info">
+          <small>02 — APPLICATION</small>
+          <h3>Nom de ton application</h3>
+          <p>Présente ici ton application, les technologies utilisées et le résultat.</p>
+          <div class="tags"><b>PHP</b><b>Laravel</b><b>SQL</b></div>
+          <a href="#" target="_blank">Voir le projet ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-visual visual-three">
+          <img src="mayana-logo.png" alt="Projet Mayana">
+          <span>PROJECT_03</span>
+        </div>
+        <div class="project-info">
+          <small>03 — IDENTITÉ / WEB</small>
+          <h3>Mayana</h3>
+          <p>Utilise cette carte pour présenter un projet lié au logo fourni.</p>
+          <div class="tags"><b>Branding</b><b>Web</b><b>Design</b></div>
+          <a href="#" target="_blank">Voir le projet ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <p class="eyebrow">04 / CONTACT</p>
+    <h2>Un projet en tête ?<br><span>Construisons-le.</span></h2>
+    <p>Une idée, un site, une application ou simplement une question ?</p>
+    <a class="contact-btn" href="mailto:votre@email.com">votre@email.com →</a>
+    <div class="contact-socials">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© <b id="year"></b> TON NOM</span>
+  <span>BUILT WITH HTML / CSS / JS</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
